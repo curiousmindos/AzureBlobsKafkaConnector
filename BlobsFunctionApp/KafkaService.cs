@@ -16,11 +16,11 @@ public class KafkaService : IKafkaService
         producerConfig = new ProducerConfig
         {
             // confluent.cloud
-            BootstrapServers = "pkc-12576z.us-west2.gcp.confluent.cloud:9092",
+            BootstrapServers = "your service.confluent.cloud:9092",
             SecurityProtocol = SecurityProtocol.SaslSsl,
             SaslMechanism = SaslMechanism.Plain,
-            SaslUsername = "BP4Y5XBPNN4CMNOL",
-            SaslPassword = "U3OSuIcZdQEKD+7Y7UyB92NmcclvWtmSHNNku/f+/bYcwNkNkFzbWkoysJldyhFS",
+            SaslUsername = "your service setting",
+            SaslPassword = "your service setting",
         };
     }
 
