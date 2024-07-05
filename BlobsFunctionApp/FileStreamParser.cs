@@ -9,7 +9,6 @@ public class MessageModel
 {
     public string FileName { get; set; }
     public long FileLength { get; set; }
-
     public string Message { get; set; }
 }
 
@@ -51,7 +50,6 @@ public class FileStreamParser : IFileStreamParser
 
             for (int i = 0; i < values.Length; i++)
             {
-                //Trim values
                 values[i] = values[i].Trim('\"');
             }
 
